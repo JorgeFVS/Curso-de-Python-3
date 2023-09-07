@@ -1,7 +1,7 @@
 nome = "Jorge"
 sobrenome = "Vieira"
-idade = 24
-ano_nascimento = 2023 - 1999
+ano_nascimento = 1999
+idade = 2023 - 1999
 maior_de_idade = idade >= 18
 altura_em_metros = 1.65
 

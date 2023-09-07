@@ -26,7 +26,7 @@ indice = 0
 
 while indice < len(nome):
 
-    nova_string += nome[contador]
+    nova_string += nome[indice]
     adiciona = "*"
     nova_string += adiciona
 

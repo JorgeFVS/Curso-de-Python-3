@@ -18,13 +18,14 @@
 # - não tem índexes;
 # - não garantem ordem;
 # - são iteráveis (for, in, not in)
-# l1 = [1, 2, 3, 3, 3, 3, 3, 1]
+l1 = {1, 2, 3, 3, 3, 3, 3, 1}
 # s1 = set(l1)
 # l2 = list(s1)
 # s1 = {1, 2, 3}
 # print(3 not in s1)
 # for numero in s1:
 #     print(numero)
+print(l1)
 
 # Métodos úteis:
 # add, update, clear, discard
@@ -34,3 +35,10 @@
 # intersecção & (intersection) - Itens presentes em ambos
 # diferença - Itens presentes apenas no set da esquerda
 # diferença simétrica ^ - Itens que não estão em ambos
+
+s1 = {1, 2, 3}
+s2 = {2, 3, 4}
+s3 = s1 | s2 
+s3 = s1 & s2
+s3 = s1 - s2
+s3 = s1 ^ s2
