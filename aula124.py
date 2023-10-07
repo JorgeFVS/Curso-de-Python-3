@@ -37,7 +37,7 @@ c1.fotografar()
 c1.parar_filmar()
 c1.fotografar()
 
-print()
+print() 
 
 c2.parar_filmar()
 c2.filmar()
