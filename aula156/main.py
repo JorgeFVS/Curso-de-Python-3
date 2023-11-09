@@ -5,4 +5,4 @@ import varias_linhas
 # print(uma_linha.__doc__)
 # print(uma_linha.__file__)
 # print(uma_linha.__name__)
-help(varias_linha)
+help(varias_linhas)
